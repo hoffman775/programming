@@ -2,11 +2,14 @@
 #include <stdlib.h>
 #include <iostream> /*contine todo lo orientado a obejos*/
 #include <math.h>
+#include <pthread.h>
 using namespace std;
 void cabecera(void); /*Funcion prototipo */
 void cabecera2(void); /*Funcion prototipo */
 int main(void)
 {
+    printf("Hola que haces\n");
+    sleep(3); 
     time_t comienza,final;
     comienza = time(NULL);
     int x;
